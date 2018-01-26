@@ -9,6 +9,10 @@
   },
   "keywords": ["Seed", "Starter", "Parcel", "Parcel JS", "Parcel Bundler", "Hyperapp", "Bootstrap 4"],
   "author": "Kory Schluter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kschluter/phb"
+  },
   "license": "MIT",
   "dependencies": {
     "@hyperapp/html": "^0.5.1",
