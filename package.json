@@ -1,0 +1,25 @@
+{
+  "name": "phb",
+  "version": "0.0.1",
+  "description": "A seed project using Parcel bundler, Hyperapp and Bootstrap 4",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html -d docs --public-url ./"
+  },
+  "keywords": ["Seed", "Starter", "Parcel", "Parcel JS", "Parcel Bundler", "Hyperapp", "Bootstrap 4"],
+  "author": "Kory Schluter",
+  "license": "MIT",
+  "dependencies": {
+    "@hyperapp/html": "^0.5.1",
+    "bootstrap": "^4.0.0",
+    "hyperapp": "^1.0.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.5.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
